@@ -1,0 +1,16 @@
+/* src/index.css or src/tailwind.css */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* index.css or App.css */
+.hide-scrollbar {
+  height: 100vh; /* Set height to full viewport height */
+  overflow-y: scroll; /* Allow vertical scrolling */
+  scrollbar-width: none; /* Firefox */
+  -ms-overflow-style: none; /* Internet Explorer 10+ */
+}
+
+.hide-scrollbar::-webkit-scrollbar {
+  display: none; /* Chrome, Safari, Opera */
+}
